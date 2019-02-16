@@ -106,6 +106,13 @@ public class Libro {
     public void setPublicacion(String publicacion) {
         this.publicacion = publicacion;
     }
+
+    @Override
+    public String toString() {
+        return titulo;
+    }
+
+    
     
     
     
